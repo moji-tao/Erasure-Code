@@ -3,16 +3,16 @@
 #include <ostream>
 using namespace std;
 
-// DeBug¿ÉÓÃ  Release²»¿ÉÓÃ
+// DeBugå¯ç”¨  Releaseä¸å¯ç”¨
 int main()
 {
 
-	ToEnCode("E:\\one\\ECTest\\test", "C:\\Users\\mojitao\\Documents\\Tencent Files\\1029487273\\FileRecv\\ÏîÄ¿ÑİÊ¾ÊÓÆµ_Hello Cloud.avi", 6, 6);
+	ToEnCode("E:\\one\\ECTest\\test", "C:\\Users\\mojitao\\Documents\\Tencent Files\\é¡¹ç›®æ¼”ç¤ºè§†é¢‘_Hello Cloud.avi", 6, 6);
 
-	printf("ÇëÊäÈë£º");
+	printf("è¯·è¾“å…¥ï¼š");
 	getchar();
 
-	ToDeCode("E:\\one\\ECTest\\test", "E:\\one\\ECTest\\test", "ÏîÄ¿ÑİÊ¾ÊÓÆµ_Hello Cloud.avi");
+	ToDeCode("E:\\one\\ECTest\\test", "E:\\one\\ECTest\\test", "é¡¹ç›®æ¼”ç¤ºè§†é¢‘_Hello Cloud.avi");
 	
 	return 0;
 }
